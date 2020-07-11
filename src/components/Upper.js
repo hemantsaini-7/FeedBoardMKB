@@ -1,5 +1,4 @@
 import React from "react";
-import textboxHeader from "./assets/Images/textbox-header.png";
 import cameraIcon from "./assets/Images/camera-icon.png";
 import videoIcon from "./assets/Images/video-icon.png";
 import fileIcon from "./assets/Images/file-icon.png";
@@ -9,7 +8,6 @@ import Illustration from "./assets/Images/illustration.png";
 function Upper() {
   return (
     <div className='upper'>
-      <img src={textboxHeader} className='header-img' />
       <div className='top-block'>
         <h1 className='upper-head'>
           SPEAK YOUR <span className='mkbspan'>MAN KI BAAT</span>

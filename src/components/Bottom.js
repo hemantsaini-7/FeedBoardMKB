@@ -19,7 +19,7 @@ function Bottom() {
         </div>
       </div>
       <div class='bottom-btn'>
-        <img src={buttonIcon} className='btniconstyle' />
+        <img src={buttonIcon} class='btnimg' />
         <a href='#' class='btn-bottom'>
           Load More
         </a>
