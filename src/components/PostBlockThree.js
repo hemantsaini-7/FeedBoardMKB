@@ -3,6 +3,8 @@ import profileIcon from "./assets/Images/profile-icon.png";
 import dots from "./assets/Images/dots.png";
 import likeIcon from "./assets/Images/like-icon.png";
 import commentIcon from "./assets/Images/comment-icon.png";
+import CIcon from "./assets/ImgMobile/cicon.png";
+import CSend from "./assets/ImgMobile/csend.png";
 function PostBlockThree() {
   return (
     <div class='block block-3'>
@@ -28,6 +30,11 @@ function PostBlockThree() {
         <p class='textl'>13K likes</p>
         <img src={commentIcon} alt='' class='comment' />
         <p class='textl'>680 comments</p>
+      </div>
+      <div class='commentSection'>
+        <img src={CIcon} alt='' class='cicon' />
+        <input type='text' placeholder='Write a comment...' class='cinput' />
+        <img src={CSend} alt='' class='csend' />
       </div>
     </div>
   );
