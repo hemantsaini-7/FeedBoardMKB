@@ -9,20 +9,20 @@ import Footer from "./Footer";
 function Bottom() {
   return (
     <Fragment>
-      <div className='bottom'>
-        <div className='b-content'>
-          <div className='b-upper'>
+      <div class='bottom'>
+        <div class='b-content'>
+          <div class='b-upper'>
             <PostBlockOne />
             <PostBlockTwo />
           </div>
-          <div className='b-lower'>
+          <div class='b-lower'>
             <PostBlockThree />
             <PostBlockFour />
           </div>
         </div>
-        <div className='bottom-btn'>
-          <img src={buttonIcon} className='btnimg' alt='' />
-          <a href='google' className='btn-bottom'>
+        <div class='bottom-btn'>
+          <img src={buttonIcon} class='btnimg' />
+          <a href='#' class='btn-bottom'>
             Load More
           </a>
         </div>

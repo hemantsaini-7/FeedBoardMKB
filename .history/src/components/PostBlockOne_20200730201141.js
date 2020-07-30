@@ -19,7 +19,7 @@ function PostBlockOne() {
       <div className='images-div'>
         <p className='addpara'>IMAGES</p>
       </div>
-      <div className='block-content'>
+      <div class='block-content'>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
         molestias laboriosam, quaerat est doloribus architecto consectetur nobis
         quod quia aut magni assumenda dolores? Eligendi delectus doloremque, sed

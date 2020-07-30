@@ -21,8 +21,8 @@ function Bottom() {
           </div>
         </div>
         <div className='bottom-btn'>
-          <img src={buttonIcon} className='btnimg' alt='' />
-          <a href='google' className='btn-bottom'>
+          <img src={buttonIcon} className='btnimg' />
+          <a href='#' className='btn-bottom'>
             Load More
           </a>
         </div>

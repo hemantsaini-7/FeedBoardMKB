@@ -8,13 +8,13 @@ import FooterImg from "./assets/ImgMobile/footerImg.png";
 
 function Footer() {
   return (
-    <div className='fbfooter'>
-      <img src={Home} alt='' className='fhome' />
-      <img src={Search} alt='' className='fsearch' />
-      <img src={FMain} alt='' className='fmain' />
-      <img src={Settings} alt='' className='fsettings' />
-      <img src={CIcon} alt='' className='ficon' />
-      <img src={FooterImg} className='footerImg' alt='' />
+    <div class='fbfooter'>
+      <img src={Home} alt='' class='fhome' />
+      <img src={Search} alt='' class='fsearch' />
+      <img src={FMain} alt='' class='fmain' />
+      <img src={Settings} alt='' class='fsettings' />
+      <img src={CIcon} alt='' class='ficon' />
+      <img src={FooterImg} class='footerImg' alt='' />
     </div>
   );
 }

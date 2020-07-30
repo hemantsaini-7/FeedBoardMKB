@@ -22,9 +22,9 @@ function Bottom() {
         </div>
         <div className='bottom-btn'>
           <img src={buttonIcon} className='btnimg' alt='' />
-          <a href='google' className='btn-bottom'>
+          <button href='#' className='btn-bottom'>
             Load More
-          </a>
+          </button>
         </div>
       </div>
       <Footer />

@@ -14,12 +14,12 @@ function PostBlockOne() {
           LOREM IPSUM <br />
           <span className='mkbspan'> 2 hours ago </span>
         </p>
-        <img src={dots} alt='' className='dots' />
+        <img src={dots} alt='' class='dots' />
       </div>
       <div className='images-div'>
         <p className='addpara'>IMAGES</p>
       </div>
-      <div className='block-content'>
+      <div class='block-content'>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit
         molestias laboriosam, quaerat est doloribus architecto consectetur nobis
         quod quia aut magni assumenda dolores? Eligendi delectus doloremque, sed
