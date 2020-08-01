@@ -4,7 +4,6 @@ import Search from "./assets/ImgMobile/search.png";
 import FMain from "./assets/ImgMobile/fmain.png";
 import Settings from "./assets/ImgMobile/settings.png";
 import CIcon from "./assets/ImgMobile/cicon.png";
-import FooterImg from "./assets/ImgMobile/footerImg.png";
 
 function Footer() {
   return (
@@ -14,7 +13,6 @@ function Footer() {
       <img src={FMain} alt='' className='fmain' />
       <img src={Settings} alt='' className='fsettings' />
       <img src={CIcon} alt='' className='ficon' />
-      <img src={FooterImg} className='footerImg' alt='' />
     </div>
   );
 }
